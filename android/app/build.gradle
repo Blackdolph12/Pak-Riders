@@ -21,6 +21,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 android {
+    namespace 'com.example.pak_riders'
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
     compileOptions {
@@ -35,7 +36,6 @@ android {
     }
     defaultConfig {
         applicationId "com.example.pak_riders"
-        namespace 'com.example.pak_riders'
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
