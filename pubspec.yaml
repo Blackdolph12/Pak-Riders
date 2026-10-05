@@ -30,4 +30,4 @@ flutter:
   uses-material-design: true
 
 dependency_overrides:
-  win32: 5.0.9
+  win32: 5.13.0
